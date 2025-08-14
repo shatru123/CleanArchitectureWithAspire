@@ -1,3 +1,4 @@
+# Not using now, but keeping it for reference. will use it later when we will use otel collector.
 receivers:
   otlp:
     protocols:
