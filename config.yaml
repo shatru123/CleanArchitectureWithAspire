@@ -3,10 +3,15 @@ receivers:
     protocols:
       grpc:
       http:
+        endpoint: 0.0.0.0:4318
 
 exporters:
   logging:
     loglevel: debug
+  otlp:
+    endpoint: "localhost:4317"
+    tls:
+      insecure: true
 
 service:
   pipelines:
@@ -14,5 +19,8 @@ service:
       receivers: [otlp]
       exporters: [logging]
     metrics:
+      receivers: [otlp]
+      exporters: [logging]
+    logs:
       receivers: [otlp]
       exporters: [logging]

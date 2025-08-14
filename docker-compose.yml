@@ -1,3 +1,4 @@
+## This Docker Compose file sets up an OpenTelemetry Collector service- But not used now and currently we are using aspire.
 version: '3.8'
 services:
   otel-collector:

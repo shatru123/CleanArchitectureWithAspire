@@ -9,7 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Build.props = Directory.Build.props
 		Directory.Packages.props = Directory.Packages.props
 		docker-compose.yml = docker-compose.yml
-		otel-collector-config.yaml = otel-collector-config.yaml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64A28C1B-09AF-426E-8721-D002BE554B48}"
@@ -33,6 +32,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.ServiceDefaults", "src\Aspire.ServiceDefaults\Aspire.ServiceDefaults.csproj", "{BB3AB942-9074-DF6F-3176-52987AFD7B40}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspire", "aspire", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "otel-config", "otel-config", "{EFA7E69E-4F63-44AE-8A63-F7388D605CC4}"
+	ProjectSection(SolutionItems) = preProject
+		config.yaml = config.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +90,7 @@ Global
 		{20216751-D953-4B40-9508-DB349612BA50} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{BB3AB942-9074-DF6F-3176-52987AFD7B40} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {64A28C1B-09AF-426E-8721-D002BE554B48}
+		{EFA7E69E-4F63-44AE-8A63-F7388D605CC4} = {64A28C1B-09AF-426E-8721-D002BE554B48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B948A3CC-9872-4612-ABD2-BB3D49671542}
