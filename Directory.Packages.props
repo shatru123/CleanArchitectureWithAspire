@@ -6,7 +6,7 @@
   <ItemGroup>
     <!-- Static code analysis -->
     <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="9.3.1" />
-    <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.12.0.118525" />
+    <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.15.0.120848" />
     <!-- Application -->
     <PackageVersion Include="Scrutor" Version="6.1.0" />
     <PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
